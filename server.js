@@ -2,6 +2,8 @@ import express from 'express';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 
+console.log("API Key dari ENV:", process.env.WEATHER_API_KEY);
+
 dotenv.config();
 const app = express();
 const PORT = 3000;
